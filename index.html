@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>FallingBalls</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <canvas></canvas>
+
+    <script type="application/javascript" src="lib/util.js"></script>
+    <script type="application/javascript" src="lib/movingObject.js"></script>
+    <script type="application/javascript" src="lib/balls.js"></script>
+    <script type="application/javascript" src="lib/player.js"></script>
+    <!-- <script type="application/javascript" src="lib/bullet.js"></script> -->
+    <script type="application/javascript" src="lib/game.js"></script>
+    <script type="application/javascript" src="lib/gameView.js"></script>
+
+    <script type="application/javascript">
+      (function () {
+        var canvasEl = document.getElementsByTagName("canvas")[0];
+        canvasEl.width = FallingBalls.Game.DIM_X;
+        canvasEl.height = FallingBalls.Game.DIM_Y;
+
+        var ctx = canvasEl.getContext("2d");
+        game = new FallingBalls.Game();
+        new FallingBalls.GameView(game, ctx).start();
+
+        // $(document).on('keydown', function() { debugger });
+      })();
+    </script>
+  </body>
+</html>
