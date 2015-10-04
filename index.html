@@ -8,7 +8,10 @@
   </head>
 
   <body>
-    <section>
+    <section class="group">
+      <div class="play-game">
+        Hit Enter to Play
+      </div>
       <canvas></canvas>
     </section>
 
@@ -26,8 +29,9 @@
         canvasEl.height = FallingBalls.Game.DIM_Y;
 
         var ctx = canvasEl.getContext("2d");
-        game = new FallingBalls.Game();
-        new FallingBalls.GameView(game, ctx).start();
+
+        // game = new FallingBalls.Game();
+        new FallingBalls.GameView(ctx).stop();
       })();
     </script>
   </body>
