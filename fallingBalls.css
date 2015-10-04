@@ -36,6 +36,13 @@ canvas {
   display: none;
   font-size: 50px;
   position: absolute;
-  top: 40%;
+  vertical-align: middle;
+  width: 400px;
+  top: 30%;
+  /*border: 1px solid black;*/
   left: 33%;
+}
+
+.play-game > p {
+  font-size: 30px;
 }
