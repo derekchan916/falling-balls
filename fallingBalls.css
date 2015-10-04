@@ -18,10 +18,12 @@ ul {
 }
 
 section {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 1000px;
 }
 
 canvas {
   /*margin: 0 200px;*/
+  border: 1px solid black;
+  border-radius: 10px;
 }
