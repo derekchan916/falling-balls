@@ -2,7 +2,7 @@ html, body, figure, figcaption, ul, li, h1, h2, div, button, canvas {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  font-family: 'Indie Flower';
   text-align: inherit;
   background: transparent;
 }
@@ -17,13 +17,25 @@ ul {
   clear: both;
 }
 
+body .show {
+  display: block;
+}
+
 section {
+  position: relative;
   margin: 10px auto;
   width: 1000px;
 }
 
 canvas {
-  /*margin: 0 200px;*/
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.play-game {
+  display: none;
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 33%;
 }
