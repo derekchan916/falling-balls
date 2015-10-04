@@ -3,6 +3,7 @@
     <title>FallingBalls</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -12,7 +13,6 @@
     <script type="application/javascript" src="lib/movingObject.js"></script>
     <script type="application/javascript" src="lib/balls.js"></script>
     <script type="application/javascript" src="lib/player.js"></script>
-    <!-- <script type="application/javascript" src="lib/bullet.js"></script> -->
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
 
@@ -25,8 +25,6 @@
         var ctx = canvasEl.getContext("2d");
         game = new FallingBalls.Game();
         new FallingBalls.GameView(game, ctx).start();
-
-        // $(document).on('keydown', function() { debugger });
       })();
     </script>
   </body>
