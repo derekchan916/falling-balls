@@ -11,8 +11,8 @@
     <section class="group">
       <div class="play-game">
         Hit Enter to Play
-        <p>Dodge the balls.<br>
-          Hold 'Space' to Sprint</p>
+        <p>Dodge the balls with the arrow keys<br>
+          Hold 'Space' to Run</p>
       </div>
       <canvas></canvas>
     </section>
@@ -34,6 +34,7 @@
         var ctx = canvasEl.getContext("2d");
 
         // game = new FallingBalls.Game();
+
         new FallingBalls.GameView(ctx).stop();
       })();
     </script>
