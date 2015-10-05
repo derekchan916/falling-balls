@@ -37,10 +37,9 @@ canvas {
   font-size: 50px;
   position: absolute;
   vertical-align: middle;
-  width: 400px;
+  width: 500px;
   top: 30%;
-  /*border: 1px solid black;*/
-  left: 33%;
+  left: 28%;
 }
 
 .play-game > p {
