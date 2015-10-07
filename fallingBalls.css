@@ -1,10 +1,11 @@
-html, body, figure, figcaption, ul, li, h1, h2, div, button, canvas {
+html, body, figure, figcaption, ul, li, h1, h2, div, button, canvas, input {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Indie Flower';
   text-align: inherit;
   background: transparent;
+
 }
 
 ul {
@@ -44,4 +45,23 @@ canvas {
 
 .play-game > p {
   font-size: 30px;
+}
+
+.welcome-message {
+  display: none;
+  font-size: 40;
+  position: absolute;
+  vertical-align: middle;
+  width: 500px;
+  top: 30%;
+  left: 28%;
+}
+
+.welcome-message > input {
+  margin-top: 5px;
+  font-size: 20px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }

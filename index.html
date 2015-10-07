@@ -8,12 +8,22 @@
   </head>
 
   <body>
-    <section class="group">
+    <section class="game-window group">
+      <div class="scoreboard">
+      </div>
       <div class="play-game">
         Hit Enter to Play
         <p>Dodge the balls with the arrow keys<br>
           Hold 'Space' to Run</p>
       </div>
+      <form id="name-form" class="welcome-message show">
+        Why hello there!<br>
+        <input
+          id="username"
+          class="name-input"
+          type="text"
+          placeholder="Please input your name here...">
+      </form>
       <canvas></canvas>
     </section>
 
@@ -34,8 +44,8 @@
         var ctx = canvasEl.getContext("2d");
 
         // game = new FallingBalls.Game();
-        $('.play-game').toggleClass('show');
-        new FallingBalls.GameView(ctx).stop();
+        // $('.play-game').toggleClass('show');
+        new FallingBalls.GameView(ctx);
       })();
     </script>
   </body>
