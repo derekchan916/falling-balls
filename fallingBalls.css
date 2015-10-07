@@ -85,7 +85,18 @@ canvas {
   line-height: 30px;
 }
 
+.left li {
+  width: 235px;
+  height: 25px;
+  overflow: hidden;
+}
+
 .right {
   float: right;
   line-height: 30px;
+}
+
+.right li {
+  height: 25px;
+
 }
