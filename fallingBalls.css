@@ -39,7 +39,7 @@ canvas {
   position: absolute;
   vertical-align: middle;
   width: 500px;
-  top: 30%;
+  top: 10%;
   left: 28%;
 }
 
@@ -64,4 +64,28 @@ canvas {
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
+}
+
+.scoreboard {
+  display: none;
+  position: absolute;
+  font-size: 25px;
+  width: 300px;
+  top: 50%;
+  left: 33%;
+}
+
+.scoreboard > h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.left {
+  float: left;
+  line-height: 30px;
+}
+
+.right {
+  float: right;
+  line-height: 30px;
 }
