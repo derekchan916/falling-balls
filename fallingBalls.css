@@ -66,6 +66,15 @@ canvas {
   padding: 5px;
 }
 
+.keyword {
+  color: red;
+}
+
+.warning-sign {
+  color: red;
+  font-size: 20px;
+}
+
 .scoreboard {
   display: none;
   position: absolute;
