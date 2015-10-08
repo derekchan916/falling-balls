@@ -107,5 +107,8 @@ canvas {
 
 .right li {
   height: 33px;
+}
 
+.authors {
+  font-size: 15px;
 }
