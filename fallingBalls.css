@@ -87,7 +87,7 @@ canvas {
 
 .left li {
   width: 235px;
-  height: 25px;
+  height: 30px;
   overflow: hidden;
 }
 
@@ -97,6 +97,6 @@ canvas {
 }
 
 .right li {
-  height: 25px;
+  height: 30px;
 
 }
