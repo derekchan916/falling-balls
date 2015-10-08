@@ -71,7 +71,7 @@ canvas {
   position: absolute;
   font-size: 25px;
   width: 300px;
-  top: 50%;
+  top: 45%;
   left: 33%;
 }
 
@@ -87,7 +87,7 @@ canvas {
 
 .left li {
   width: 235px;
-  height: 30px;
+  height: 33px;
   overflow: hidden;
 }
 
@@ -97,6 +97,6 @@ canvas {
 }
 
 .right li {
-  height: 30px;
+  height: 33px;
 
 }
