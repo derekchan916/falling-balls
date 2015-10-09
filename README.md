@@ -14,6 +14,8 @@ Hold spacebar to sprint.
 - Scaleable for more players to be added at once
 - Uses physics for gravity and vectors
 - Uses Canvas to create render everything
+- Now includes leaderboard through separate rails app to accept server requests
+- Filter's malicious user names
 
 ##Future goals
 - Use Node.js to add more players and a chatroom
